@@ -1,8 +1,11 @@
 
 #define ALL_BODY_PARTS ["head", "body", "leftarm", "rightarm", "leftleg", "rightleg"]
 
-// How much wound damage is required on each hitpoint to be lethal (corresponds to ALL_BODY_PARTS)
-#define LETHAL_DAMAGE_THRESHOLDS [1, 5, 10, 10, 10, 10]
+// Weights applied to wound damage of each body part on lethality check (corresponds to ALL_BODY_PARTS)
+// Worth noting these aren't proportional to eachother, since each body part has built in damage weighting
+// todo: check if we can just adjust the threshold to meet the built in damage weighting
+#define BODY_PART_DAMAGE_WEIGHTS [1, 0.2, 0.1, 0.1, 0.1, 0.1]
+#define LETHAL_DAMAGE_THRESHOLD 1
 
 #define MEDICAL_ACTION_DISTANCE 1.75
 
