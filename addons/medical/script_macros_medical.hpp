@@ -1,6 +1,9 @@
 
 #define ALL_BODY_PARTS ["head", "body", "leftarm", "rightarm", "leftleg", "rightleg"]
 
+// How much wound damage is required on each hitpoint to be lethal (corresponds to ALL_BODY_PARTS)
+#define LETHAL_DAMAGE_THRESHOLDS [1, 3, 6, 6, 6, 6]
+
 #define MEDICAL_ACTION_DISTANCE 1.75
 
 // scale received pain to 0-2 level to select type of scream
@@ -48,8 +51,6 @@
 
 // Chance to wake up when vitals are stable (checked once every SPONTANEOUS_WAKE_UP_INTERVAL seconds)
 #define SPONTANEOUS_WAKE_UP_INTERVAL 15
-
-#define LETHAL_HEAD_DAMAGE_THRESHOLD 1.0
 
 // Minimum leg damage required for limping
 #define LIMPING_DAMAGE_THRESHOLD 0.30
