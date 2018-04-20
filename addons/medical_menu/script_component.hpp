@@ -16,3 +16,6 @@
 
 #include "\z\ace\addons\main\script_macros.hpp"
 #include "\z\ace\addons\medical\script_macros_medical.hpp"
+
+// Used to scale a bloodloss value for color representation
+#define BLEEDING_COLOR_FACTOR 20
