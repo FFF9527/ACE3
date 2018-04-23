@@ -1,3 +1,5 @@
+PREP(bloodLossToRGBA);
+PREP(damageToRGBA);
 PREP(displayPatientInformation);
 PREP(effectBleeding);
 PREP(effectBloodVolume);
