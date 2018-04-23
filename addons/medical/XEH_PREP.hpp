@@ -5,7 +5,6 @@ PREP(bodyCleanupLoop);
 PREP(conditionCardiacArrestTimer);
 PREP(conditionExecutionDeath);
 PREP(dev_watchMedicalStats);
-PREP(displayPatientInformation);
 PREP(displayTriageCard);
 PREP(enteredStateCardiacArrest);
 PREP(enteredStateFatalInjury);

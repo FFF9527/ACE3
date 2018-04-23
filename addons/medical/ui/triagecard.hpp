@@ -1,4 +1,6 @@
+class ACE_gui_backgroundBase;
 class ACE_gui_buttonBase;
+class ACE_gui_listBoxBase;
 
 class GVAR(triageCard) {
     idd = 7010;
